@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.org/nfdi4plants/ontology/dpbo/dpbo.owl#"
-     xml:base="http://purl.org/nfdi4plants/ontology/dpbo/dpbo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/dpbo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/dpbo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:dpbo="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#"
+     xmlns:dpbo="http://purl.obolibrary.org/obo/dpbo#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo.owl">
-        <owl:versionIRI rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo/init/2020-12-01/dpbo.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dpbo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/dpbo/init/2020-12-01/dpbo.owl"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-9021-3197</dc:creator>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0003-1476-2121</dc:creator>
         <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataPLANT Biology Ontology</dc:title>
@@ -106,33 +106,33 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ER_target -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#ER_target -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ER_target"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dpbo#ER_target"/>
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ER_target_term -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#ER_target_term -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ER_target_term"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dpbo#ER_target_term"/>
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#hasDefinition -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#hasDefinition -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#hasDefinition"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dpbo#hasDefinition"/>
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#hasHumanReadableId -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#hasHumanReadableId -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#hasHumanReadableId"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dpbo#hasHumanReadableId"/>
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#seeAlso -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#seeAlso -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dpbo#seeAlso"/>
     
 
 
@@ -1039,7 +1039,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001549"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drying</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#non-mining_synonym"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/dpbo#non-mining_synonym"/>
     </owl:Axiom>
     
 
@@ -1098,13 +1098,13 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSE</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#non-mining_synonym"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/dpbo#non-mining_synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001583"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPE</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#non-mining_synonym"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/dpbo#non-mining_synonym"/>
     </owl:Axiom>
     
 
@@ -1785,7 +1785,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seurat is an R package designed for QC, analysis, and exploration of single-cell RNA-seq data. Seurat aims to enable users to identify and interpret sources of heterogeneity from single-cell transcriptomic measurements, and to integrate diverse types of single-cell data.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO:0000035</oboInOwl:id>
@@ -1798,7 +1798,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The method used to select for or against, enrich, or screen the material being sequenced.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0001940</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -2184,7 +2184,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permanently established cell culture that will proliferate indefinitely given appropriate fresh medium and space. [ NCI On-line Medical Dictionary ] </obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C16403</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -2199,7 +2199,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid. [Definition Source: NCI]</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO:0000069</oboInOwl:id>
@@ -3069,7 +3069,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RNA-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3160,7 +3160,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000009">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ssRNA-seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3176,7 +3176,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000010">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ChIP-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3192,7 +3192,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000011">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MNase-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3208,7 +3208,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000012">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MBD-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3224,7 +3224,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000013">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MRE-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3240,7 +3240,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000014">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Bisulfite-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3273,7 +3273,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000016">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of MeDIP-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3319,7 +3319,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000019">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of FAIRE-seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3350,7 +3350,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000021">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of RIP-Seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3366,7 +3366,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000022">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ATAC-seq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3383,7 +3383,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000023">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of ChIA-PET</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3399,7 +3399,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000024">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of Hi-C</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOLS_library strategy</dpbo:ER_target_term>
@@ -3430,7 +3430,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000026">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of fastq</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_file type</dpbo:ER_target_term>
@@ -3604,7 +3604,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000038">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3619,7 +3619,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000039">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3634,7 +3634,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000040">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3649,7 +3649,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000041">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3664,7 +3664,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000042">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3679,7 +3679,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000043">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3694,7 +3694,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000044">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3709,7 +3709,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000045">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3724,7 +3724,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000046">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3739,7 +3739,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000047">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3754,7 +3754,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000048">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3769,7 +3769,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000049">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3784,7 +3784,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000050">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3799,7 +3799,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000051">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3814,7 +3814,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000052">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3829,7 +3829,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000053">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3844,7 +3844,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000054">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3859,7 +3859,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000055">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3874,7 +3874,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000056">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3889,7 +3889,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000057">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3904,7 +3904,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000058">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3919,7 +3919,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000059">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3934,7 +3934,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000060">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3949,7 +3949,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000061">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3964,7 +3964,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000062">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3979,7 +3979,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000063">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -3994,7 +3994,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000064">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4009,7 +4009,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000065">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4024,7 +4024,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000066">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4039,7 +4039,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000067">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4054,7 +4054,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000068">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4069,7 +4069,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000069">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4084,7 +4084,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000070">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4099,7 +4099,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000071">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4153,7 +4153,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000075">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4168,7 +4168,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000076">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4183,7 +4183,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000077">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4211,7 +4211,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000079">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4226,7 +4226,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000080">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4241,7 +4241,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000081">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4256,7 +4256,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000082">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4271,7 +4271,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000083">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4286,7 +4286,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000084">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4301,7 +4301,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000085">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_instrument model</dpbo:ER_target_term>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4316,7 +4316,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000086">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of single</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAW FILES_single or paired-end</dpbo:ER_target_term>
@@ -4347,7 +4347,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000088">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of total RNA</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4363,7 +4363,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000089">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of polyA RNA</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4378,7 +4378,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000090">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of cytoplasmic RNA</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4394,7 +4394,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000091">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of nuclear RNA</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4410,7 +4410,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000092">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of genomic DNA</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4426,7 +4426,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000093">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placeholder def of protein</obo:IAO_0000115>
         <dpbo:ER_target rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO_RNASEQ</dpbo:ER_target>
         <dpbo:ER_target_term rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAMPLES_molecule</dpbo:ER_target_term>
@@ -4533,7 +4533,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000101">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Well is a component of the Well/Plate/Screen construct to describe screening applications. A Well has a number of WellSample elements that link to the Images collected in this well.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OME:Well</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4570,7 +4570,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000104">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique name of a chemical compound.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EDAM:data_0990</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4585,7 +4585,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000105">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier of an entry from a database of chemicals.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data:1086</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4612,7 +4612,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000108">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unique gene name within a specific repository, database, or collection.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C48664</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4650,7 +4650,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000111">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A characteristic of a treatment regimen employed as a comparator against which the study treatment is evaluated.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C49647</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4713,7 +4713,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000117">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of protein made by B lymphocytes in response to a foreign substance (antigen). Each antibody only binds to a specific antigen, helping to destroy the antigen directly or by assisting white blood cells to destroy the antigen.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C16295</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4728,7 +4728,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000118">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin flat piece of transparent material that is placed over a specimen for viewing with a microscope.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C126370</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4766,7 +4766,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000122">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of the software program to capture and/or process imaging data.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C175898</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4829,7 +4829,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000127">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of the assay.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C178857</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -4987,7 +4987,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000142">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The microscope&apos;s objective lens.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OME:Objective</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -5038,7 +5038,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000146">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0005135</oboInOwl:hasDbXref>
@@ -5054,7 +5054,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000147">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device that can be used to restrict the location of material entities over time</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0000967</oboInOwl:hasDbXref>
@@ -5096,7 +5096,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000150">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of a constituent, impurity, or some other undesirable element that spoils, corrupts, infects, makes unfit, or makes inferior a material, physical body, natural environment, place of human occupancy, or other material entity. [database_cross_reference: https://en.wikipedia.org/wiki/Contamination][database_cross_reference: https://github.com/pato-ontology/pato/issues/420]</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0015031</oboInOwl:hasDbXref>
@@ -5150,7 +5150,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000154">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3-D extent quality inhering in a bearer by virtue of the bearer&apos;s amount of 3-dimensional space it occupies. [database_cross_reference: PATOC:GVG]</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000918</oboInOwl:hasDbXref>
@@ -5179,7 +5179,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000156 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000156">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The photoperiod and type (e.g., natural, restricted wavelength) of light exposure.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000568</oboInOwl:hasDbXref>
@@ -5209,7 +5209,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000158">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless ratio unit which, given a pair of quantities a and b, for which b is a multiple of a, denotes b by giving the multiplier (coefficient) c for a to result in b.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Fabian Haas | ORCID:0000-0002-7711-5282&quot;</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -5271,7 +5271,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000162">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that provides instructions for the growth of a biological sample. Describes the conditions, materials and procedure used to grow and/or maintain the sample.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003789</oboInOwl:hasDbXref>
@@ -5352,7 +5352,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000168 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000168">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that aims to treat sample or collection of samples, organism or group of organisms, for some experimental purpose.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003969</oboInOwl:hasDbXref>
@@ -5368,7 +5368,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000169">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that provides instructions on how a biological sample for an experiment was collected.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0005518</oboInOwl:hasDbXref>
@@ -5397,7 +5397,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000171">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol used to obtain something of experimental interest from a sample via chemical, physical or mechanical means. Often tailored to match the starting material as well as the end goals (resulting material, quality level, etc.) of the procedure required by the following assay</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000490</oboInOwl:hasDbXref>
@@ -5413,7 +5413,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000172">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that describes how to remove and purify DNA from a sample. This requires physical and/or chemical methods in order to separate the DNA from cell membranes, proteins and other cellular components.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -5428,7 +5428,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000173 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000173">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that describes the steps for removing and purifying DNA from a biological sample</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0010959</oboInOwl:hasDbXref>
@@ -5444,7 +5444,7 @@
     <!-- http://purl.obolibrary.org/obo/DPBO_1000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DPBO_1000174">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protocol that describes how to isolate protein from a tissue, cell culture or other biological sample.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kathryn Dumschott | ORCID: 0000-0002-9905-4011</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -8357,7 +8357,7 @@
     <!-- http://purl.obolibrary.org/obo/OME_Objective -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OME_Objective">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OME:Objective</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class &quot;Objective&quot; is microscopes&apos; objective lens. 19.02.2024: term has been deprecated, please use REPR:Objective</rdfs:comment>
@@ -9105,7 +9105,7 @@
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">george gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unit.ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UO:0000048</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#unit_group_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#unit_group_slim"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acceleration unit</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9167,9 +9167,9 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical name</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data:0990</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#data"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#edam"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#identifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#identifiers"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound name</rdfs:label>
     </owl:Class>
     
@@ -9193,9 +9193,9 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small molecule identifier</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data:1086</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#data"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#edam"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#identifiers"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#identifiers"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compound identifier</rdfs:label>
     </owl:Class>
     
@@ -9215,7 +9215,7 @@
     <!-- http://purl.obolibrary.org/obo/obsolete_DPBO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/obsolete_DPBO_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequencing technique intended for a next generation sequencing library.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GENEPIO:0001973</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -9243,8 +9243,8 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short sequence read mapping</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">operation:3198</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#edam"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#operations"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#operations"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The purpose of read mapping is to identify the location of sequenced fragments within a reference genome and assumes that there is, in fact, at least local similarity between the fragment and reference sequences.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read mapping</rdfs:label>
     </owl:Class>
@@ -9272,17 +9272,17 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small RNA</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topic:0099</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#edam"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#topics"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#edam"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/dpbo#topics"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000041 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000041 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#NCIT_C25360"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mutant in which a gene ore genes are expressed at higher levels than the wild type.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000041</oboInOwl:id>
@@ -9291,10 +9291,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000042 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000042 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#NCIT_C25360"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mutant genotype in which one or more genes can have modifications (subtitutions, indels, partial truncations, etc), but they conserve functionality.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000042</oboInOwl:id>
@@ -9303,10 +9303,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000051 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000051 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#NCIT_C25360"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mutant in which the function of a target gene has been disrupted within its normal biological context. Utilized to examine the involvement of a gene in a complex biological process.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000051</oboInOwl:id>
@@ -9315,10 +9315,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000052 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000052 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#NCIT_C25360"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a mutant in which a foreign DNA sequence is introduced to cell in an extrachromosomal unit of replication.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000052</oboInOwl:id>
@@ -9327,10 +9327,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000059 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000059 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000059">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000077"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000077"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An optical density that specifies the amount of light of 600 nm of wavelenght the bearer is able to transmit.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000059</oboInOwl:id>
@@ -9339,9 +9339,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000077 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000077 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000077">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000077">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality that inheres in a bearer by virtue of the amount of light that the bearer of the quality is able to transmit.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000077</oboInOwl:id>
@@ -9350,10 +9350,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000173 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000866"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000866"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000173</oboInOwl:id>
@@ -9362,10 +9362,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000174 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000174 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000174">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000173"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000174</oboInOwl:id>
@@ -9374,10 +9374,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000177 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000177 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000173"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000177</oboInOwl:id>
@@ -9386,10 +9386,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000178 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000178 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000173"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000178</oboInOwl:id>
@@ -9398,10 +9398,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000179 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000179 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000173"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000179</oboInOwl:id>
@@ -9410,10 +9410,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000180 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000180 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000173"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000173"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000180</oboInOwl:id>
@@ -9422,9 +9422,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000851 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000851 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000851">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000851">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological quality that inheres in specific organisms and that describes its total genetic content</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000851</oboInOwl:id>
@@ -9433,9 +9433,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000866 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#MCO_0000866 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000866">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#MCO_0000866">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process in which the act is intended to modify or alter some other material entity.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCO_0000866</oboInOwl:id>
@@ -9444,9 +9444,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C146817 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#NCIT_C146817 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C146817">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#NCIT_C146817">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DPBO_0002006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proprietary next-generation DNA sequencing system from Solexa that uses reversible terminator nucleotides. The genomic DNA to be sequenced is fragmented and ligated to adapter molecules on both ends to construct an Illumina-specific adapter library. PCR amplification of the DNA fragments is then performed using the adapter sequence as primer. Sequencing is carried out by repeated cycles of adding reversible fluorescent-labelled nucleotide and incorporation of the nucleotides to the complementary strand. The fluorescence of the incorporated nucleotides is detected.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -9456,9 +9456,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C146818 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#NCIT_C146818 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C146818">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#NCIT_C146818">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DPBO_0002006"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A proprietary next-generation DNA sequencing technology from Oxford Nanopore Technologies that can directly identify and sequence a DNA molecule as it passes through a nanopore, driven by electrophoresis.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -9468,10 +9468,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#NCIT_C25360 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C25360">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000851"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#NCIT_C25360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000851"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An altered form of an individual, organism, population, or genetic character that differs from the corresponding wild type due to one or more alterations (mutations).</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT_C25360</oboInOwl:id>
@@ -9480,10 +9480,10 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C62195 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#NCIT_C62195 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#NCIT_C62195">
-        <rdfs:subClassOf rdf:resource="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#MCO_0000851"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#NCIT_C62195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/dpbo#MCO_0000851"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The naturally-occurring, normal, non-mutated version of a gene or genome.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT_C62195</oboInOwl:id>
@@ -9492,9 +9492,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#OBI_0000869 -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#OBI_0000869 -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#OBI_0000869">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#OBI_0000869">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DPBO_0000012"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A RNA extract that is the output of an extraction process in which RNA molecules with poly A tail at its 3&apos; end are purified.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
@@ -9504,9 +9504,9 @@
     
 
 
-    <!-- http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass -->
+    <!-- http://purl.obolibrary.org/obo/dpbo#ObsoleteClass -->
 
-    <owl:Class rdf:about="http://purl.org/nfdi4plants/ontology/dpbo/dpbo#ObsoleteClass">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dpbo#ObsoleteClass">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPBO</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ObsoleteClass</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsolete Class</rdfs:label>
